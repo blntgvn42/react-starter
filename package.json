@@ -1,0 +1,35 @@
+{
+  "name": "react-starter",
+  "version": "1.0.0",
+  "description": "CLI for creating Vite React TypeScript projects",
+  "main": "dist/index.js",
+  "bin": {
+    "create-react-vite-app": "./bin/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --platform=node --target=node18 --outfile=bin/cli.js",
+    "dev": "esbuild src/index.ts --bundle --platform=node --target=node18 --outfile=bin/cli.js --watch",
+    "prepublishOnly": "pnpm build"
+  },
+  "keywords": [
+    "vite",
+    "react",
+    "typescript",
+    "cli"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.2.0",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.11.16",
+    "@types/prompts": "^2.4.9",
+    "esbuild": "^0.20.0",
+    "typescript": "^5.3.3"
+  }
+}
