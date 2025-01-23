@@ -4,7 +4,7 @@
   "description": "CLI for creating Vite React TypeScript projects",
   "main": "dist/index.js",
   "bin": {
-    "create-react-vite-app": "./bin/cli.js"
+    "react-starter": "./bin/cli.js"
   },
   "type": "module",
   "scripts": {
