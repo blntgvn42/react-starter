@@ -22,7 +22,7 @@ importers:
         specifier: ^11.0.4
         version: 11.0.4
       '@types/node':
-        specifier: ^20.11.16
+        specifier: ^20.17.15
         version: 20.17.15
       '@types/prompts':
         specifier: ^2.4.9

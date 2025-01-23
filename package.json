@@ -1,5 +1,5 @@
 {
-  "name": "react-starter",
+  "name": "@bulent.guven/react-starter",
   "version": "1.0.0",
   "description": "CLI for creating Vite React TypeScript projects",
   "main": "dist/index.js",
@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@types/fs-extra": "^11.0.4",
-    "@types/node": "^20.11.16",
+    "@types/node": "^20.17.15",
     "@types/prompts": "^2.4.9",
     "esbuild": "^0.20.0",
     "typescript": "^5.3.3"
