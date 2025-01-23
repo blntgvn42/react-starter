@@ -1,6 +1,6 @@
 {
   "name": "@bulent.guven/react-starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI for creating Vite React TypeScript projects",
   "main": "dist/index.js",
   "bin": {
@@ -9,8 +9,7 @@
   "type": "module",
   "scripts": {
     "build": "esbuild src/index.ts --bundle --platform=node --target=node18 --outfile=bin/cli.js",
-    "dev": "esbuild src/index.ts --bundle --platform=node --target=node18 --outfile=bin/cli.js --watch",
-    "prepublishOnly": "pnpm build"
+    "dev": "esbuild src/index.ts --bundle --platform=node --target=node18 --outfile=bin/cli.js --watch"
   },
   "keywords": [
     "vite",
